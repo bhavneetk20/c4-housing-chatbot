@@ -1,0 +1,16 @@
+{
+  "name": "c4-housing-chatbot",
+  "version": "1.0.0",
+  "description": "AI chatbot assistant for CommonKeys, an affordable-housing platform built under York University's C4 program",
+  "main": "HousingBot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node HousingBot.js"
+  },
+  "author": "Bhavneet Kaur",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "openai": "^4.104.0"
+  }
+}

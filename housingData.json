@@ -1,0 +1,58 @@
+{
+  "_note": "Sample grounding data illustrating the structure used by the CommonKeys housing assistant. Listings and figures are demonstrative.",
+  "platform": {
+    "name": "CommonKeys",
+    "mission": "Make affordable, accessible, and sustainable housing attainable for low-income individuals and families in the Greater Toronto Area.",
+    "features": [
+      "Search homes by affordability level",
+      "View upcoming affordable developments",
+      "Explore financial aid programs",
+      "Community forum to connect residents and share resources"
+    ]
+  },
+  "affordabilityLevels": [
+    { "level": "Deeply affordable", "description": "Rent geared to income (typically ~30% of household income)" },
+    { "level": "Affordable", "description": "Below average market rent for the area" },
+    { "level": "Attainable", "description": "At or slightly below market rate with support programs available" }
+  ],
+  "sampleListings": [
+    {
+      "name": "Maplewood Commons",
+      "area": "Scarborough",
+      "type": "1-2 bedroom apartments",
+      "affordability": "Deeply affordable",
+      "status": "Accepting applications"
+    },
+    {
+      "name": "Lakeshore Green Residences",
+      "area": "Etobicoke",
+      "type": "Townhomes",
+      "affordability": "Affordable",
+      "status": "Under construction — expected 2026"
+    }
+  ],
+  "financialAidPrograms": [
+    {
+      "name": "Canada-Ontario Housing Benefit (COHB)",
+      "description": "Portable monthly benefit to help pay rent, tied to the household rather than a unit."
+    },
+    {
+      "name": "Rent-Geared-to-Income (RGI) Subsidy",
+      "description": "Rent set at approximately 30% of gross monthly household income."
+    },
+    {
+      "name": "Toronto Rent Bank",
+      "description": "Interest-free loans and grants for tenants facing rent arrears or moving costs."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who is eligible for affordable housing?",
+      "a": "Eligibility generally depends on household income relative to area thresholds; each program lists its own criteria."
+    },
+    {
+      "q": "How do I apply?",
+      "a": "Browse listings, check the eligibility requirements for the development, and follow its application link. Financial aid programs can be applied for in parallel."
+    }
+  ]
+}
