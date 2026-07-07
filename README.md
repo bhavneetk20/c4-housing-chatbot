@@ -1,8 +1,8 @@
-# C4 Housing AI Chatbot 🏠🤖
+# C4 Housing AI Chatbot 
 
 AI assistant built for **[CommonKeys](https://commonkeys.org)** — a student-led platform (York University C4 program) that helps low-income individuals and families in the Greater Toronto Area find affordable, accessible, and sustainable housing.
 
-🏆 **Best Project Award** — York University C4 Program
+**Best Project Award** — York University C4 Program
 
 ## What it does
 
@@ -24,7 +24,7 @@ User question → system prompt (grounding data + persona) → OpenAI API → re
 
 ```bash
 npm install
-cp .env.example .env   # add your OpenAI API key
+cp .env.example .env # add your OpenAI API key
 node HousingBot.js
 ```
 
